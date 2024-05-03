@@ -9,7 +9,7 @@ const loadMoreBtn = document.querySelector('.load-more');
 
 let currentPage = 1;
 let searchQuery = '';
-let totalHitsAvailable = 0; // To track the number of hits available
+let totalHitsAvailable = 0; 
 
 const API_KEY = '43704076-e4399805efcc0ad689cbb211a';
 const BASE_URL = 'https://pixabay.com/api/';
